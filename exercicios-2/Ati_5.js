@@ -12,7 +12,7 @@ Valor total = quantidade * preço
 
 const leia = require('readline-sync');
 
-let codigoDoProduto, quantidade, precoDoProduto, nomeDoProduto, valorTotal;
+let codigoDoProduto, quantidade, precoDoProduto = 0, nomeDoProduto = '', valorTotal;
 
 codigoDoProduto = leia.questionInt('Codigo do Produto: ');
 
