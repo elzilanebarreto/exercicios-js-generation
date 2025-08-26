@@ -8,7 +8,7 @@ let numero1, numero2;
 
 numero1 = leia.questionInt('Digite o primeiro numero do intervalo: ');
 numero2 = leia.questionInt('Digite o segundo numero do intervalo: ');
-// console.clear();
+console.clear();
 
 if(numero1 < numero2){
 

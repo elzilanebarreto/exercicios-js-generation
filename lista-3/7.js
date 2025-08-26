@@ -17,6 +17,8 @@ for(let i = 0; i < 10; i++){
     } 
 }
 
+console.clear();
+
 if(encontrado){
     console.log(`O numero ${numeroPesquisa} esta na localizado na posicao: ${posicao}`);
 } else{

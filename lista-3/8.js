@@ -19,6 +19,8 @@ for (let i = 0; i < 10; i++){
 
 media = soma / vetorInteiros.length; //ou 10
 
+console.clear();
+
 console.log('\nElementos nos índices ímpares:')
 for (let i = 0; i < 10; i++){
     if(i % 2 !== 0){

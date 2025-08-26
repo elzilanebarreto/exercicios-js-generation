@@ -18,4 +18,5 @@ do{
 
 media = somaMultiplos / acumuladorMultiplos;
 
+console.clear();
 console.log(`A media de todos os numeros multiplos de 3 é: ${media.toFixed(2)}`);
